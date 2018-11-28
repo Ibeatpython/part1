@@ -1,1 +1,12 @@
 
+want_cake = 'yes'
+have_cake = 'no'
+if want_cake == 'yes':
+	print('we want cake')
+	if have_cake != 'no':
+		print('But we don\'t have any cake')
+	elif have_cake == 'yes':
+		print('It\'s our lucky day')
+
+else:
+	print('the cake is the lie')
