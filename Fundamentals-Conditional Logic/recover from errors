@@ -1,0 +1,10 @@
+
+repeat = True
+while repeat:
+	try:
+		num = int(input('input an interger'))
+		print(num)
+		repeat = False
+	except ValueError:
+		print('try again')
+		
