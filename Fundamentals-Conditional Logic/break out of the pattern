@@ -1,0 +1,12 @@
+while True:
+	user = input('put some words:')
+	if user == 'q' or user == 'Q':
+		break
+
+
+
+for i in range(1, 51):
+	if i % 3 == 0:
+		continue
+	else:
+		print(i)
