@@ -1,6 +1,6 @@
 while True:
 	user = input('put some words:')
-	if user == 'q' or user == 'Q':
+	if user == 'q' or user == 'Q':    参考资料是 if user.upper() == 'Q':
 		break
 
 
