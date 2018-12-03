@@ -1,0 +1,13 @@
+#投骰子10000次，产生的平均数
+#骰子1-6随机数累加total
+
+from random import randint
+trails = 10000
+total = 0
+
+for trail in range(0, trails):
+	total += randint(1, 6)
+
+
+avg_result = total / trails
+print('the average result {} throws is {}'.format(trails, avg_result))
